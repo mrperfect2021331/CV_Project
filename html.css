@@ -1,0 +1,283 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    
+    background-color: rgb(47, 49, 47);
+    margin:0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+header{
+    
+    padding: 10px;
+}
+.div1{
+    width:30%;
+    
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.bio1{  
+    padding: 50px;
+    color:rgb(22, 19, 24);
+    width:40%;
+    float:left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.bio2 {
+    width:30%;
+    
+    float:right;
+    padding:50px 20px;
+    
+    
+}
+.img1{
+    width: 150px;
+    height: 150px;
+    border:3px solid black;
+    border-radius: 50%;
+    margin-top: 20px;
+    padding: 5px;
+    
+}
+
+
+
+.bio2 a{
+    text-decoration: none;
+    color: rgb(32, 180, 37);
+    font-weight: bold;
+}
+.bio2 a:hover{
+    color: rgb(80, 10, 10);
+    cursor: pointer;
+}
+.bio2 a:active{
+    color: red;
+}
+.bio2 a:visited{
+    color: purple;
+}
+.bio2 a:focus{
+    color: green;
+}
+.div-clear{
+    clear: both;
+}
+.div{
+    clear: both;
+    background-color: rgb(206, 189, 189);
+    padding: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    text-decoration:solid;
+
+}
+
+#hr1{
+    border: 2px solid rgb(22, 211, 60);
+    margin-top: 20px auto;
+    
+    width: 100%;
+
+
+}
+#personal_information{
+    padding:5px;
+    padding-bottom: 25px; 
+    margin: 5px auto;
+        width: 100%;
+}
+.personal_left{
+    padding:5px;
+    margin: 0px;
+    float: left;
+    width: 50%;
+}
+.personal_right{
+    padding:5px;
+    
+    float:right;
+    width: 50%;
+    color: rgb(18, 17, 17);
+}
+.div-clear2{
+    clear: both;
+}   
+ul{
+   padding: 20px;
+    
+    
+}
+#work_experience_section{
+    padding:5px;
+    margin: 5px auto;
+        width: 100%;
+    box-sizing: border-box;
+}
+.work_experience{
+    
+    padding: 10px;
+    margin-top: 20px;
+   float: left;
+   width:50%;
+   box-sizing: border-box;
+}
+.work_experience_details{
+    
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+.work_experience_details h3{
+    color: rgb(13, 202, 44);
+}
+.work_experience_details p{
+    color: rgb(89, 12, 12);
+}
+.div-clear3{
+    clear: both;
+}
+.hr3{
+    border: 1px solid rgb(22, 211, 60);
+    margin-top: 20px auto;
+    
+    width: 100%;
+}
+#work_section{
+    padding:5px;
+    margin: 5px auto;
+        width: 100%;
+}
+
+.work_section_details{
+    
+    box-sizing: border-box;
+    float:right;
+    width: 50%;
+}
+.hr4{
+    border: 1px solid rgb(22, 211, 60);
+    margin-top: 20px auto;
+    
+    width: 50%;
+    float:right;
+}
+.hr2{
+    border: 1px solid rgb(254, 255, 255);
+    
+    margin-top: 10px ;
+    width: 100%;
+}
+#Education_section{
+        width:100%;
+    
+    box-sizing: border-box;
+}
+.Education_section_heading{
+    width:20%;
+    float:left;
+    padding:20px;
+    
+}
+.Education_section_details{
+    padding: 20px;
+    width: 43.33%;
+    
+    
+     float: left;
+}
+.educational_section_details_2{
+   Padding: 20px;
+    float:right;
+    width: 33.33%;
+    box-sizing: border-box;
+   
+}
+.educational_section_details_2 a:hover{
+    color: red;
+    cursor: pointer;
+}
+.Education_section_details a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.div-clear4{
+    clear: both;
+}   
+.honors_sector{
+    width:100%;
+    box-sizing: border-box;
+    margin-top:20px;
+    
+}
+.honor{
+    padding:10px;
+    margin-top:20px;    
+    float:left;
+    width: 30%;
+    
+    font-size: small;
+    
+}
+.honors{
+    float:right;
+    width:70%;
+    box-sizing: border-box;
+    
+}
+#references{
+    width:100%;
+    box-sizing: border-box;
+    margin-top:20px;
+    
+}
+.references_heading{
+    width:33%;
+    float:left;
+    padding:10px;
+    box-sizing: border-box;
+    
+    
+}
+.references_details{
+    float:left;
+    width:33%;
+    padding:10px;
+    margin-left:solid rgb(233, 237, 233) 10px ;
+    
+    box-sizing: border-box;
+    
+}
+.references_p{
+    color: aqua;
+    font-weight: bold;
+    font-size: large;
+}
+.references_details_2{
+    float:left;
+    width:33%;
+    box-sizing: border-box;
+    padding:10px;
+    
+}
+.footer{
+    background-color: rgb(3, 51, 3);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
